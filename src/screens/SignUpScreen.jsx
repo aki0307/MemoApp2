@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  View, Text, TextInput, StyleSheet,
+  View, Text, TextInput, StyleSheet, TouchableOpacity,
 } from 'react-native';
 
 import AppBar from '../components/AppBar';
@@ -11,13 +11,15 @@ export default function SighUpScreen() {
     <View style={styles.container}>
       <AppBar />
       <View style={styles.inner}>
-        <Text style={styles.title}>Sign Up</Text>
+        <Text style={styles.titlerr}>Sign Up</Text>
         <TextInput style={styles.input} value="Email Addres" />
         <TextInput style={styles.input} value="Password" />
         <Button label="Submit" />
         <View style={styles.footer}>
           <Text style={styles.footerText}>Already registered?</Text>
-          <Text style={styles.footerLink}>Log In</Text>
+          <TouchableOpacity>
+            <Text style={styles.footerLink}>Log In</Text>
+          </TouchableOpacity>
         </View>
 
       </View>
