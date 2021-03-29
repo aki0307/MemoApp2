@@ -3,32 +3,32 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function AppBar() {
   return (
-    <View style={styles.appbar}>
-      <View style={styles.appberInner}>
-        <Text style={styles.appbarTitle}>Memo App</Text>
-        <Text style={styles.appbarRight}>ログアウト</Text>
+    <View style={styles.appBar}>
+      <View style={styles.appBerInner}>
+        <Text style={styles.appBarTitle}>Memo App</Text>
+        <Text style={styles.appBarRight}>ログアウト</Text>
       </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  appbar: {
+  appBar: {
     width: '100%',
     height: 104,
     backgroundColor: '#467FD3',
     justifyContent: 'flex-end',
   },
-  appberInner: {
+  appBerInner: {
     alignItems: 'center',
   },
-  appbarRight: {
+  appBarRight: {
     position: 'absolute',
     right: 19,
     bottom: 16,
     color: '#rgba(255, 255, 255, 0.8)',
   },
-  appbarTitle: {
+  appBarTitle: {
     marginBottom: 8,
     fontSize: 22,
     lineHeight: 32,
