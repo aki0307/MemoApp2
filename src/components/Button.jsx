@@ -16,7 +16,7 @@ Button.propTypes = {
   onPress: func,
 };
 
-Button.defultProps = {
+Button.defaultProps = {
   onPress: null,
 };
 

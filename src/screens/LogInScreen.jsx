@@ -25,8 +25,8 @@ export default function LogInScreen(props) {
 
   function handlePress() {
     firebase.auth().signInWithEmailAndPassword(email, password)
-      .then((userCredentail) => {
-        const { user } = userCredentail;
+      .then((userCredential) => {
+        const { user } = userCredential;
         console.log(user.uid);
         navigation.reset({
           index: 0,
