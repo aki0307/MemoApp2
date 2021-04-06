@@ -24,7 +24,7 @@ export default function MemoCreateScreen(props) {
         console.log('Created!', docRef.id);
         navigation.goBack();
       })
-      .cath((error) => {
+      .catch((error) => {
         console.log('Error', error);
       });
   }
