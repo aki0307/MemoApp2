@@ -16,11 +16,11 @@ export default function Loading(props) {
   );
 }
 
-Loading.protoType = {
+Loading.propTypes = {
   isLoading: bool,
 };
 
-Loading.defultProps = {
+Loading.defaultProps = {
   isLoading: false,
 };
 
