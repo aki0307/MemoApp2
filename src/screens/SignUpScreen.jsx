@@ -8,7 +8,7 @@ import Button from '../components/Button';
 import Loading from '../components/Loading';
 import { translateErrors } from '../utils';
 
-export default function SighUpScreen(props) {
+export default function SignUpScreen(props) {
   const { navigation } = props;
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   footerLink: {
     fontSize: 14,
     lineHeight: 24,
-    color: '#467fd3',
+    color: '#EA8814',
   },
   footer: {
     flexDirection: 'row',

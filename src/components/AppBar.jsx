@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   appBar: {
     width: '100%',
     height: 104,
-    backgroundColor: '#467FD3',
+    backgroundColor: '#EA8814',
     justifyContent: 'flex-end',
   },
   appBerInner: {

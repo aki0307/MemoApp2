@@ -2,7 +2,7 @@ import { format } from 'date-fns';
 
 export function dateToString(date) {
   if (!date) { return ''; }
-  return format(date, 'yyy年M月d日 HH時間mm分');
+  return format(date, 'yyyy年M月d日 HH時mm分');
 }
 
 export function translateErrors(code) {
@@ -21,10 +21,10 @@ export function translateErrors(code) {
       error.description = 'パスワードが間違っています。';
       break;
     case 'auth/email-already-in-use':
-      error.description = 'メールアドレスが使用されています。。';
+      error.description = 'メールアドレスが使用されています。';
       break;
     case 'auth/operation-not-allowed':
-      error.description = '開発者にお問い合わせ下さい';
+      error.description = '開発者にお問い合わせ下さい。';
       break;
     case 'auth/weak-password':
       error.description = 'パスワードが簡単すぎます。';

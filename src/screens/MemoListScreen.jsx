@@ -52,7 +52,7 @@ export default function MemoListScreen(props) {
       <View style={emptyStyles.container}>
         <Loading isLoading={isLoading} />
         <View style={emptyStyles.inner}>
-          <Text styles={emptyStyles.title}>最初のメモを作成しよう！</Text>
+          <Text style={emptyStyles.title}>最初のメモを作成しよう！</Text>
           <Button
             style={emptyStyles.button}
             label="作成する"

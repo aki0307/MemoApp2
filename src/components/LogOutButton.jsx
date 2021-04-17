@@ -16,7 +16,7 @@ export default function LogOutButton() {
           routes: [{ name: 'LogIn' }],
         });
       })
-      .cath(() => {
+      .catch(() => {
         Alert.alert('ログアウトに失敗しました');
       });
   }
